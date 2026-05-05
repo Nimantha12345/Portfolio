@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // HTML එකේ class="text" ලෙස ඇති තැනට අකුරු ටයිප් වීම සිදු වේ
     if(document.querySelector(".text")) {
         var typed = new Typed(".text", {
-            strings: [" Undergraduate", " IT Student", " QA Tester"],
+            strings: [" SE Undergraduate", " IT Student"],
             typeSpeed: 100,
             backSpeed: 100,
             backDelay: 1000,
